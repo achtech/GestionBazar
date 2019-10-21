@@ -450,6 +450,8 @@ class ComposerStaticInit064b7bbd091e7d734af5bc352a6e97ee
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\AdminBulletinPaie1Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminBulletinPaie1Controller.php',
+        'App\\Http\\Controllers\\AdminBulletinPaieController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminBulletinPaieController.php',
         'App\\Http\\Controllers\\AdminClientsController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminClientsController.php',
         'App\\Http\\Controllers\\AdminCmsUsers1Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminCmsUsers1Controller.php',
         'App\\Http\\Controllers\\AdminCmsUsersController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdminCmsUsersController.php',
@@ -475,6 +477,7 @@ class ComposerStaticInit064b7bbd091e7d734af5bc352a6e97ee
         'App\\Http\\Controllers\\CBHook' => __DIR__ . '/../..' . '/app/Http/Controllers/CBHook.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\ReportingService' => __DIR__ . '/../..' . '/app/Http/Controllers/ReportingService.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',

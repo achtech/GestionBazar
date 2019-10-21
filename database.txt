@@ -1,0 +1,32 @@
+DATABSE
+Utilisateurs
+	id, nom, login, password, email, role,tel
+Commercials
+	id, nom, tel, email, adresse
+Fournisseurs
+	id, entreprise, nom,  tel,mobile, fax, adresse, email, ville, notes 
+Contacts
+	id, idFournisseurs, nom, email,  tel,mobile, fax, civilité, fonction
+Clients
+	id, raisonSocial, nom, tel,mobile, fax, adresse, email, ville, notes, civilité
+Categories
+	id, libelle, description
+Produits
+	id,idCategories,libelle,picture, prixAchat,prixVente, description, tva, qteAstockMinimal, unite 
+
+Unites
+    id, libelle
+Achats
+	id, dateAchat, idFournisseurs, status, referenceCmd
+LigneAchats
+	id, idAchat, idProduits, qte, prixUnite, remarque		
+Ventes
+	id, dateCmd, idCommercials, idClients,montantPaye,MontantCommercial
+LigneVentes
+	idCommandes,	idProduits,	prixVente, remarque
+FacturesClients
+	id, idVentes,  numero, datefacture, creerPar, creerOn, changerPar, changerOn
+FacturesFournisseurs 
+	id, idAchat,  numFacture, facture(picture) , creerPar, creerOn, changerPar, changerOn
+Magasin
+	Nom, adresse, adresse2,pays, province, ville, telephone, fax, mobile, email, siteWeb, logo

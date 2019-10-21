@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\AdminBulletinPaie1Controller' => $baseDir . '/app/Http/Controllers/AdminBulletinPaie1Controller.php',
+    'App\\Http\\Controllers\\AdminBulletinPaieController' => $baseDir . '/app/Http/Controllers/AdminBulletinPaieController.php',
     'App\\Http\\Controllers\\AdminClientsController' => $baseDir . '/app/Http/Controllers/AdminClientsController.php',
     'App\\Http\\Controllers\\AdminCmsUsers1Controller' => $baseDir . '/app/Http/Controllers/AdminCmsUsers1Controller.php',
     'App\\Http\\Controllers\\AdminCmsUsersController' => $baseDir . '/app/Http/Controllers/AdminCmsUsersController.php',
@@ -33,6 +35,7 @@ return array(
     'App\\Http\\Controllers\\CBHook' => $baseDir . '/app/Http/Controllers/CBHook.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
+    'App\\Http\\Controllers\\ReportingService' => $baseDir . '/app/Http/Controllers/ReportingService.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
     'App\\Http\\Middleware\\RedirectIfAuthenticated' => $baseDir . '/app/Http/Middleware/RedirectIfAuthenticated.php',
